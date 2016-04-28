@@ -12,7 +12,7 @@ public class Main {
 			TraClusterDoc tcd = new TraClusterDoc();						
 			
 			tcd.onOpenDocument(args[0]);
-			tcd.onClusterGenerate(args[1], Integer.parseInt(args[2]), Integer.parseInt(args[3]));//25,5~7
+			tcd.onClusterGenerate(args[1], Double.parseDouble(args[2]), Integer.parseInt(args[3]));//25,5~7
 			
 		} else if(args.length==2) {
 			
